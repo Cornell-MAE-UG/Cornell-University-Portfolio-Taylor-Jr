@@ -42,23 +42,23 @@ Clarifying these facts and assumptions was essential for evaluating ethical resp
 
 **Ethical Analysis Using ASME Canons**
 
-*ASME Canon 1 – Hold Paramount the Safety, Health, and Welfare of the Public*
+***ASME Canon 1** – Hold Paramount the Safety, Health, and Welfare of the Public*
 
 This canon was the primary ethical principle applied. Certifying MCAS without redundancy, adequate pilot training, or clear disclosure created foreseeable safety risks. In life-critical systems such as aviation, public safety must override efficiency, cost savings, and competitive advantage.
 
-*ASME Canon 2 – Perform Services Only in Areas of Competence*
+***ASME Canon 2** – Perform Services Only in Areas of Competence*
 
 Approving a system that pilots were not adequately trained to understand or respond to raises concerns about professional competence at the system level. Engineering responsibility includes ensuring that users of a system are prepared to interact with it safely.
 
-*ASME Canon 3 – Issue Public Statements Truthfully and Objectively*
+***ASME Canon 3** – Issue Public Statements Truthfully and Objectively*
 
 MCAS was not clearly communicated to pilots or the public prior to the accidents. Limited disclosure undermined informed decision-making by pilots and airlines and conflicted with the obligation to provide complete and accurate safety-related information.
 
-*ASME Canon 4 – Act as Faithful Agents Without Conflicts of Interest*
+***ASME Canon 4** – Act as Faithful Agents Without Conflicts of Interest*
 
 Competitive pressure to match Airbus schedules created conflicts between Boeing’s business interests and its duty to protect public safety. Ethical engineering requires resisting pressures that compromise safety-critical decisions.
 
-*ASME Canon 7 – Maintain Professional Integrity*
+***ASME Canon 7** – Maintain Professional Integrity*
 
 The cumulative effect of limited transparency, reduced training, and single-point failure risks reflects a broader failure of professional integrity. Ethical responsibility extends beyond meeting minimum regulatory requirements to upholding the spirit of professional standards.
 
@@ -67,6 +67,7 @@ Across these canons, conflicts consistently resolved in favor of **Canon 1**, re
 ---
 
 **Practical Constraints on Ethical Action**
+
 This case demonstrates how ethical failures can emerge even when individuals recognize risks. Engineers faced:
 - job security concerns and hierarchical pressure  
 - limited system-level visibility due to information silos  
@@ -98,7 +99,8 @@ Ethical engineering must be supported by systems and structures, not reliant on 
 
 ---
 
-## Personal Reflection
+**Personal Reflection**
+
 This case reinforced that ethics is inseparable from engineering practice. Design decisions, training requirements, and communication choices all carry ethical weight. As a mechanical engineer interested in product design, this analysis has shaped how I approach my design ideation when safety, automation, and human interaction intersect.
 
 ---
