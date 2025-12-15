@@ -3,7 +3,7 @@ layout: project
 title: Fluids & Heat Transfer Lab Blade Design
 description: Turbine Blade Optimization
 technologies: [MATLAB, LABView, Fusion 360]
-image: /assets/images/turbine.jpg
+image: /assets/images/turbine.png
 ---
 
 ![Figure 1: CAD model and dimensions]({{ "/assets/images/blade-cad.png" | relative_url }}){: .inline-image-r style="width: 200px"}
