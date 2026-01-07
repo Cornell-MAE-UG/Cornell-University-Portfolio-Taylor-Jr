@@ -3,7 +3,7 @@ layout: project
 title: Fluids & Heat Transfer Lab Blade Design
 description: Turbine Blade Optimization
 technologies: [MATLAB, LABView, Fusion 360]
-image: /assets/images/turbine.png
+image: /assets/images/blade-design/turbine.png
 ---
 
 As part of MAE 4272: Fluids and Heat Transfer Laboratory course, our team was tasked with designing a wind turbine blade capable of maximizing power output under fixed wind tunnel operating conditions. The primary objectives were to optimize aerodynamic performance, prevent structural failure under free-spin conditions, and ensure compatibility with system constraints such as the 55 MPa material limit, 6-inch blade length restriction, 1-inch radius hub, a maximum safe rotational speed of 2000 RPM, wind speeds characterized by a Weibull distribution, and fixed parameters of k = 5 and c = 5.

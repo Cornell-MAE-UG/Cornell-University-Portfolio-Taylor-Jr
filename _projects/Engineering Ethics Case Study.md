@@ -3,7 +3,7 @@ layout: project
 title: Engineering Ethics Case Study
 description: Boeing 737 MAX & MCAS
 technologies: [N/A]
-image: /assets/images/ethics.png
+image: /assets/images/engineering-ethics/ethics.png
 ---
 
 **MAE 4300 – Engineering and Society**  
