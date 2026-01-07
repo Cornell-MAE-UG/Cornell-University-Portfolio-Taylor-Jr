@@ -3,7 +3,7 @@ layout: project
 title: Virtual Fencing (Low-Cost Cow Ear Tag)
 description: GPS-based virtual boundary system + iterative ear-tag CAD + electric stimuli prototyping
 technologies: [Fusion360, BantamTools, ANSYS]
-image: /assets/images/virtual-fencing/design-process.jpeg
+image: /assets/images/virtual-fencing/design-process.JPEG
 ---
 
 *Overview*  
@@ -61,7 +61,7 @@ I designed and iterated on electronic enclosures in Fusion 360, with a focus on 
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/virtual-fencing/case-1b.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/virtual-fencing/case-1b.JPEG" | relative_url }}"
        alt="Enclosure 1b"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -113,7 +113,7 @@ To support the deterrence function, we prototyped and simulated high-voltage ele
 *Extra Photos*
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/virtual-fencing/case-1b-to-hand.png" | relative_url }}"
+  <img src="{{ "/assets/images/virtual-fencing/case-1b-to-hand.JPEG" | relative_url }}"
        alt="enclosure 1b to Hand"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -122,7 +122,7 @@ To support the deterrence function, we prototyped and simulated high-voltage ele
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/virtual-fencing/lights-case.png" | relative_url }}"
+  <img src="{{ "/assets/images/virtual-fencing/lights-case.JPEG" | relative_url }}"
        alt="Enclosure 2a"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
