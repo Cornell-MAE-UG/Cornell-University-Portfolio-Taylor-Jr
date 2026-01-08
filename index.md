@@ -13,5 +13,4 @@ I currently work in Professor Robert Shepherd’s Organic Robotics Laboratory, w
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/assets/CV.pdf" | relative_url }}">CV</a>.
 
-Note: Im working on updating this website still, but here is my old porfolio in case you didnt find what you wanted here: https://bit.ly/3C4R0Fx  
-Thanks for reading and i'd love to connect with you, message me!
+Note: Im working on updating this website still, but here is my [old porfolio](https://bit.ly/3C4R0Fx) in case you didnt find what you wanted here. Thanks for reading and i'd love to connect with you, message me!
