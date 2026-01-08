@@ -41,7 +41,7 @@ I designed and iterated on electronic enclosures in Fusion 360, with a focus on 
        alt="Finite Element Analysis of Enclosure 1a and 1b"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 1: Finite Element Analysis of Enclosure 1a and 1b
   </figcaption>
 </figure>
 

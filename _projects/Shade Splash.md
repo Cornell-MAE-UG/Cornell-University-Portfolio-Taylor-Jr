@@ -23,7 +23,7 @@ Players begin in opposite corners of a rectangular play space. A Target Color di
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/game-controls.jpeg" | relative_url }}"
-       alt="Game controls"
+       alt="Game Controls"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
     Figure 1: Game Controls
@@ -63,7 +63,7 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
        alt="LED Layer"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 3: Diffusive Layer/Led Layer
+    Figure 4: Diffusive Layer/Led Layer
   </figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
        alt="Fluid"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 3: Fluid
+    Figure 5: Fluid
   </figcaption>
 </figure>
 
@@ -89,7 +89,7 @@ Each controller housed a 25 count strip of LEDs, a button, and a MPU6050(gyrosco
        alt="Circuit Design"
        style="display:block; width:100%; margin:0 right;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 3: Circuit Design
+    Figure 6: Circuit Design
   </figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Each controller housed a 25 count strip of LEDs, a button, and a MPU6050(gyrosco
        alt="Actual Circuit"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 3: Actual Circuit
+    Figure 7: Actual Circuit
   </figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Rendering 1"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Rendering 1
+    Figure 8: Rendering 1
   </figcaption>
 </figure>
 
@@ -128,7 +128,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Rendering 2"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Rendering 2
+    Figure 9: Rendering 2
   </figcaption>
 </figure>
 
@@ -137,70 +137,70 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Rendering 3"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Rendering 3
+    Figure 10: Rendering 3
   </figcaption>
 </figure>
 
 **More Pictures**
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/button.jpeg" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+       alt="Button Close-Up"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 11: Button Close-Up
   </figcaption>
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/front-view.jpeg" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+       alt="Front View"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 12: Front View
   </figcaption>
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/holding-with-controllers.jpeg" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+       alt="Controllers in Hand"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 13: Controllers in Hand
   </figcaption>
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/holding-with-screen.jpeg" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+       alt="Controllers in Hand with Screen"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 14: Controllers in Hand with Screen
   </figcaption>
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/pouring-look.jpeg" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+       alt="Pouring Look"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 15: Pouring Look
   </figcaption>
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/spout.jpeg" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+       alt="Spout"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 16: Spout
   </figcaption>
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/top-slant-view.jpeg" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+       alt="Final View"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Enclosure 1a
+    Figure 16: Final View
   </figcaption>
 </figure>
