@@ -37,11 +37,20 @@ When asked what would motivate them to invest in a new system, farmers consisten
 I designed and iterated on electronic enclosures in Fusion 360, with a focus on safety, animal comfort, and cost-effective deployment for farmers in low- and middle-income regions. To validate and refine the design, I conducted 24 finite element analysis (FEA) simulations in ANSYS and Fusion 360, evaluating factor of safety, material strength, and material efficiency by modeling realistic loading conditions ranging from a cow chewing on the enclosure at 200 N to full biting forces of 800 N. In parallel, I performed on-farm testing using different enclosure materials—Nylon 66, Nylon 6, and PLA—to identify an ideal prototyping material that balanced durability, manufacturability, and performance.
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/virtual-fencing/fea-graphs.pdf" | relative_url }}"
-       alt="Finite Element Analysis of Enclosure 1a and 1b"
+  <img src="{{ '/assets/images/virtual-fencing/small-fea.png' | relative_url }}"
+       alt="Finite Element Analysis of Enclosure 1b"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 1: Finite Element Analysis of Enclosure 1a and 1b
+    Figure 1: Finite Element Analysis of Enclosure 1b
+  </figcaption>
+</figure>
+
+<figure style="width:400px; margin:0 auto; text-align:center;">
+  <img src="{{ '/assets/images/virtual-fencing/big-fea.png' | relative_url }}"
+       alt="Finite Element Analysis of Enclosure 1a"
+       style="display:block; width:100%; margin:0 auto;">
+  <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 2: Finite Element Analysis of Enclosure 1a
   </figcaption>
 </figure>
 
@@ -56,7 +65,7 @@ I designed and iterated on electronic enclosures in Fusion 360, with a focus on 
        alt="Enclosure 1a"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 2: Enclosure 1a
+    Figure 3: Enclosure 1a
   </figcaption>
 </figure>
 
@@ -65,7 +74,7 @@ I designed and iterated on electronic enclosures in Fusion 360, with a focus on 
        alt="Enclosure 1b"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 3: Enclosure 1b
+    Figure 4: Enclosure 1b
   </figcaption>
 </figure>
 
@@ -76,7 +85,7 @@ I designed and iterated on electronic enclosures in Fusion 360, with a focus on 
        alt="Enclosure 2"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 4: Enclosure 2
+    Figure 5: Enclosure 2
   </figcaption>
 </figure>
 
@@ -87,7 +96,7 @@ I designed and iterated on electronic enclosures in Fusion 360, with a focus on 
        alt="Future Enclosure 1"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 5: Future Enclosure 1
+    Figure 6: Future Enclosure 1
   </figcaption>
 </figure>
 
@@ -98,7 +107,7 @@ I designed and iterated on electronic enclosures in Fusion 360, with a focus on 
        alt="Future Enclosure 2"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 6: Future Enclosure 2
+    Figure 7: Future Enclosure 2
   </figcaption>
 </figure>
 
@@ -117,7 +126,7 @@ To support the deterrence function, we prototyped and simulated high-voltage ele
        alt="enclosure 1b to Hand"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 7: Encosure 1b to Hand
+    Figure 8: Encosure 1b to Hand
   </figcaption>
 </figure>
 
@@ -126,7 +135,7 @@ To support the deterrence function, we prototyped and simulated high-voltage ele
        alt="Enclosure 2a"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 8: More Enclosure 2
+    Figure 9: More Enclosure 2
   </figcaption>
 </figure>
 
@@ -135,7 +144,7 @@ To support the deterrence function, we prototyped and simulated high-voltage ele
        alt="Its a cow!"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 9: Its a cow!
+    Figure 10: Its a cow!
   </figcaption>
 </figure>
 
