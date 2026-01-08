@@ -36,7 +36,7 @@ Players begin in opposite corners of a rectangular play space. A Target Color di
 
 The physical controllers were designed to resemble paint buckets, reinforcing the theme of mixing colors. Multiple iterations of the bucket geometry were developed, starting all the way from a scrappy prototype (Figure 2) to a fully functional 3D printed version. The many iterations of this controller were used to refine ergonomics, confortability, ease of use, and to find the best way to represent a paint bucket while still funcitong as a game controller.
 
-*Paint Bucket Iterations*
+*Paint Bucket Iterations:*
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/design-process.png" | relative_url }}"
@@ -56,7 +56,7 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
   </figcaption>
 </figure>
 
-*Diffusive Layer/LED Layer*
+*Diffusive Layer/LED Layer:*
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/led-layer.png" | relative_url }}"
@@ -67,7 +67,7 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
   </figcaption>
 </figure>
 
-*Fluid*
+*Fluid:*
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/fluid.png" | relative_url }}"
@@ -82,18 +82,18 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
 
 Each controller housed a 25 count strip of LEDs, a button, and a MPU6050(gyroscope). All wires from each controller housing fed into a second housing enclouser which an Arduino Micro Pro and connected all the electronics on a self-soldered protoboard. The controllers are powered through the type-c port on the Arduino Micro Pro and serves as an output to configure the game on a screen.
 
-*Protoboard Enclosure*
+*Protoboard Enclosure:*
 
-<figure style="width:400px; margin:0 auto; text-align:left;">
+<figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/circuit.png" | relative_url }}"
        alt="Circuit Design"
-       style="display:block; width:100%; margin:0 auto;">
+       style="display:block; width:100%; margin:0 right;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
     Figure 3: Circuit Design
   </figcaption>
 </figure>
 
-<figure style="width:400px; margin:0 auto; text-align:right;">
+<figure style="width:400px; margin:0 auto; text-align:center;">
   <img src="{{ "/assets/images/shade-splash/real-circuit.png" | relative_url }}"
        alt="Actual Circuit"
        style="display:block; width:100%; margin:0 auto;">
@@ -104,7 +104,7 @@ Each controller housed a 25 count strip of LEDs, a button, and a MPU6050(gyrosco
 
 ---
 
-*My Contributions*  
+**My Contributions**  
 
 I led the design and fabrication of the physical game controllers, focusing on translating digital game mechanics into intuitive, embodied interaction. Using Fusion 360, I designed and iterated on multiple paint-bucket-inspired enclosures, refining the external form and internal layout to improve ergonomics, balance, and component fit across several versions. I also contributed to rapid prototyping efforts through cardboard mockups and 3D-printed iterations, using each build to inform design revisions related to usability and assembly.
 
