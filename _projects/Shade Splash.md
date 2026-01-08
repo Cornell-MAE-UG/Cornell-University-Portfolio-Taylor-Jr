@@ -22,7 +22,7 @@ Shade Splash is a cooperative 1D color-matching game designed for physical inter
 Players begin in opposite corners of a rectangular play space. A Target Color displayed at the top of the screen indicates the color they must recreate, while a Current Blend at the bottom shows the real-time result of their combined inputs. Each player uses a motion-based controller that acts like a balance wheel: holding the controller parallel to the ground keeps the character stationary, while tilting it left or right moves the character accordingly. Players must coordinate their movements to mix colors accurately. Once they believe the correct shade has been achieved, both players must press their corresponing buttons on their controller to lock down on their desired shade. If successful, the game advances to a new round with a different target color and more shade choices. 
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/shade-splash/game-controls.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/shade-splash/game-controls.png" | relative_url }}"
        alt="Game Controls"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -143,7 +143,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
 
 **More Pictures**
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/shade-splash/button.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/shade-splash/button.JPEG" | relative_url }}"
        alt="Button Close-Up"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -152,7 +152,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/shade-splash/front-view.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/shade-splash/front-view.JPEG" | relative_url }}"
        alt="Front View"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -161,7 +161,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/shade-splash/holding-with-controllers.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/shade-splash/holding-controllers.jpeg" | relative_url }}"
        alt="Controllers in Hand"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -170,7 +170,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/shade-splash/holding-with-screen.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/shade-splash/holding-with-screen.jpg" | relative_url }}"
        alt="Controllers in Hand with Screen"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -188,7 +188,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/shade-splash/spout.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/shade-splash/spout.png" | relative_url }}"
        alt="Spout"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
@@ -197,7 +197,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
 </figure>
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
-  <img src="{{ "/assets/images/shade-splash/top-slant-view.jpeg" | relative_url }}"
+  <img src="{{ "/assets/images/shade-splash/top-slant-view.JPEG" | relative_url }}"
        alt="Final View"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
