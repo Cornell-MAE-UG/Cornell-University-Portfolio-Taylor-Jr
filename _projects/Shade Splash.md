@@ -56,6 +56,27 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
   </figcaption>
 </figure>
 
+*Final Design Exploded Views:*
+
+<figure style="width:400px; margin:0 auto; text-align:center;">
+  <img src="{{ "/assets/images/shade-splash/exploded-view.png" | relative_url }}"
+       alt="Controller Exploded View"
+       style="display:block; width:100%; margin:0 auto;">
+  <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 4: Controller Exploded View
+  </figcaption>
+</figure>
+
+<figure style="width:400px; margin:0 auto; text-align:center;">
+  <img src="{{ "/assets/images/shade-splash/exploded-board-view.png" | relative_url }}"
+       alt="Protoboard Enclosure Exploded View"
+       style="display:block; width:100%; margin:0 auto;">
+  <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 5: Protoboard Enclosure Exploded View
+  </figcaption>
+</figure>
+
+
 *Diffusive Layer/LED Layer:*
 
 <figure style="width:400px; margin:0 auto; text-align:center;">
@@ -63,7 +84,7 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
        alt="LED Layer"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 4: Diffusive Layer/Led Layer
+    Figure 6: Diffusive Layer/Led Layer
   </figcaption>
 </figure>
 
@@ -74,7 +95,7 @@ The physical controllers were designed to resemble paint buckets, reinforcing th
        alt="Fluid"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 5: Fluid
+    Figure 7: Fluid
   </figcaption>
 </figure>
 
@@ -89,7 +110,7 @@ Each controller housed a 25 count strip of LEDs, a button, and a MPU6050(gyrosco
        alt="Circuit Design"
        style="display:block; width:100%; margin:0 right;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 6: Circuit Design
+    Figure 8: Circuit Design
   </figcaption>
 </figure>
 
@@ -98,7 +119,7 @@ Each controller housed a 25 count strip of LEDs, a button, and a MPU6050(gyrosco
        alt="Actual Circuit"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 7: Actual Circuit
+    Figure 9: Actual Circuit
   </figcaption>
 </figure>
 
@@ -119,7 +140,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Rendering 1"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 8: Rendering 1
+    Figure 10: Rendering 1
   </figcaption>
 </figure>
 
@@ -128,7 +149,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Rendering 2"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 9: Rendering 2
+    Figure 11: Rendering 2
   </figcaption>
 </figure>
 
@@ -137,7 +158,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Rendering 3"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 10: Rendering 3
+    Figure 12: Rendering 3
   </figcaption>
 </figure>
 
@@ -147,7 +168,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Button Close-Up"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 11: Button Close-Up
+    Figure 13: Button Close-Up
   </figcaption>
 </figure>
 
@@ -156,7 +177,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Front View"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 12: Front View
+    Figure 14: Front View
   </figcaption>
 </figure>
 
@@ -165,7 +186,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Controllers in Hand"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 13: Controllers in Hand
+    Figure 15: Controllers in Hand
   </figcaption>
 </figure>
 
@@ -174,7 +195,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Controllers in Hand with Screen"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 14: Controllers in Hand with Screen
+    Figure 16: Controllers in Hand with Screen
   </figcaption>
 </figure>
 
@@ -183,7 +204,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Pouring Look"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 15: Pouring Look
+    Figure 17: Pouring Look
   </figcaption>
 </figure>
 
@@ -192,7 +213,7 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Spout"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 16: Spout
+    Figure 18: Spout
   </figcaption>
 </figure>
 
@@ -201,6 +222,6 @@ On the electronics side, I helped integrate and test the controller hardware, in
        alt="Final View"
        style="display:block; width:100%; margin:0 auto;">
   <figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
-    Figure 16: Final View
+    Figure 19: Final View
   </figcaption>
 </figure>
