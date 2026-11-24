@@ -1,9 +1,9 @@
-UPDATED PORTFOLIO
+PORTFOLIO V3 — COMPLETE WEBSITE
 
-1. Extract the entire ZIP to a new folder. Keep your old folder and original ZIP as backups.
-2. Open index.html in a browser to preview the new homepage. Photos and CV use included local files. Original case study links use the published site in file preview; Jekyll builds them on deployment.
-3. Open the extracted folder in VS Code. This package contains all website files but excludes .git history to keep the download manageable. Larger photos and the original video have been optimized for web delivery. Originals remain in your uploaded backup.
-4. To update your existing GitHub repository without losing its history, retain the .git folder from your original local repository in the extracted folder. In the VS Code terminal run git status and git remote -v. The original remote is Cornell-MAE-UG/fa25-portfolio-JamisonLTaylorJr.git, which differs from the public portfolio URL Cornell-University-Portfolio-Taylor-Jr. Verify the correct publishing repository before pushing. The original Jekyll baseurl is preserved.
-5. Once confirmed, git add -A, git commit -m "Redesign portfolio", and git push.
+Extract the ZIP, then open index.html in your browser. Every project and CV page is local and uses the same shared stylesheet.
 
-New project photos and mini CAD renders still need to be supplied.
+Edit individual pages in projects/<project>/index.html, the CV in cv/index.html, the homepage in index.html and the shared styling in assets/css/portfolio.css. Original Markdown sources are retained in _projects and _pages for reference; Jekyll collection output is disabled to avoid duplicate pages.
+
+The newer project pages contain overview text only until you add actual photos and detailed documentation.
+
+Keep your original repository and Git history. This ZIP contains website files, not .git. Verify the correct Git remote before publishing.

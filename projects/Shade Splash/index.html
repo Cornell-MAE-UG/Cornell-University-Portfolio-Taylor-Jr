@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Shade Splash — Jamison L. Taylor Jr.</title><link href="../../assets/css/portfolio.css" rel="stylesheet"/></head><body><a class="skip" href="#main">Skip to content</a><nav><a class="brand" href="../../index.html">JLT<span>.</span></a><div class="links"><a href="../../index.html">Home</a><a aria-current="page" href="../../projects/index.html">Projects</a><a href="../../index.html#cad">Mini CAD</a><a href="../../index.html#experience">Experience</a><a href="../../cv/index.html">CV</a></div></nav><main id="main"><header class="page-hero"><a class="back" href="../index.html">← All projects</a><div class="eyebrow">02 / Physical interaction</div><h1>Shade Splash<span class="accent">.</span></h1><p class="lead">Cooperative 1D color-matching game</p><div class="tags"><span>Arduino</span><span>CAD</span><span>Prototyping</span><span>Electronics</span><span>Physical Computing</span></div></header><figure class="cover"><img alt="Shade Splash project image" src="../../assets/images/shade-splash/holding-controllers.jpeg"/></figure><div class="case-layout"><aside aria-label="On this page" class="toc"><div class="eyebrow">On this page</div><a href="#section-1">Overview</a><a href="#section-2">Game Mechanics</a><a href="#section-3">Controller Enclosure Design</a><a href="#section-4">Electronic Design</a><a href="#section-5">My Contributions</a><a href="#section-6">Renderings</a><a href="#section-7">More Pictures</a><a href="#detail-1">Motion processing and interaction</a></aside><article class="prose"><h2 id="section-1">Overview</h2>
+<p>Shade Splash is a cooperative 1D color-matching game designed for physical interaction, where two players work together to recreate a target color through coordinated motion and communication. Each player controls a different color, and their combined movements determine the final blended shade displayed in real time. The project explored how physical controllers and embodied interaction can encourage collaboration rather than competition.</p>
+<video controls="" width="100%">
+<source src="../../assets/images/shade-splash/shade-splash-video.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
+<hr/>
+<h2 id="section-2">Game Mechanics</h2>
+<p>Players begin in opposite corners of a rectangular play space. A Target Color displayed at the top of the screen indicates the color they must recreate, while a Current Blend at the bottom shows the real-time result of their combined inputs. Each player uses a motion-based controller that acts like a balance wheel: holding the controller parallel to the ground keeps the character stationary, while tilting it left or right moves the character accordingly. Players must coordinate their movements to mix colors accurately. Once they believe the correct shade has been achieved, both players must press their corresponing buttons on their controller to lock down on their desired shade. If successful, the game advances to a new round with a different target color and more shade choices.</p>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Game Controls" loading="lazy" src="../../assets/images/shade-splash/game-controls.png" style="display:block; width:100%; margin:0 auto;">
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 1: Game Controls
+  </figcaption>
+</img></figure>
+<hr/>
+<h2 id="section-3">Controller Enclosure Design</h2>
+<p>The physical controllers were designed to resemble paint buckets, reinforcing the theme of mixing colors. Multiple iterations of the bucket geometry were developed, starting all the way from a scrappy prototype (Figure 2) to a fully functional 3D printed version. The many iterations of this controller were used to refine ergonomics, confortability, ease of use, and to find the best way to represent a paint bucket while still funcitong as a game controller.</p>
+<p><em>Paint Bucket Iterations:</em></p>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Scrapy Prototypes" loading="lazy" src="../../assets/images/shade-splash/design-process.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 2: Scrapy Prototypes
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="3D Printed Prototypes" loading="lazy" src="../../assets/images/shade-splash/design-process-2.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 3: 3D Printed Prototypes
+  </figcaption>
+</figure>
+<p><em>Final Design Exploded Views:</em></p>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Controller Exploded View" loading="lazy" src="../../assets/images/shade-splash/exploded-view.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 4: Controller Exploded View
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Protoboard Enclosure Exploded View" loading="lazy" src="../../assets/images/shade-splash/exploded-board-view.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 5: Protoboard Enclosure Exploded View
+  </figcaption>
+</figure>
+<p><em>Diffusive Layer/LED Layer:</em></p>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="LED Layer" loading="lazy" src="../../assets/images/shade-splash/led-layer.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 6: Diffusive Layer/Led Layer
+  </figcaption>
+</figure>
+<p><em>Fluid:</em></p>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Fluid" loading="lazy" src="../../assets/images/shade-splash/fluid.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 7: Fluid
+  </figcaption>
+</figure>
+<h2 id="section-4">Electronic Design</h2>
+<p>Each controller housed a 25 count strip of LEDs, a button, and a MPU6050(gyroscope). All wires from each controller housing fed into a second housing enclouser which an Arduino Micro Pro and connected all the electronics on a self-soldered protoboard. The controllers are powered through the type-c port on the Arduino Micro Pro and serves as an output to configure the game on a screen.</p>
+<p><em>Protoboard Enclosure:</em></p>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Circuit Design" loading="lazy" src="../../assets/images/shade-splash/circuit.png" style="display:block; width:100%; margin:0 right;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 8: Circuit Design
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Actual Circuit" loading="lazy" src="../../assets/images/shade-splash/real-circuit.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 9: Actual Circuit
+  </figcaption>
+</figure>
+<hr/>
+<h2 id="section-5">My Contributions</h2>
+<p>I led the design and fabrication of the physical game controllers, focusing on translating digital game mechanics into intuitive, embodied interaction. Using Fusion 360, I designed and iterated on multiple paint-bucket-inspired enclosures, refining the external form and internal layout to improve ergonomics, balance, and component fit across several versions. I also contributed to rapid prototyping efforts through cardboard mockups and 3D-printed iterations, using each build to inform design revisions related to usability and assembly.</p>
+<p>On the electronics side, I helped integrate and test the controller hardware, including the Arduino Pro Micro, MPU6050 gyroscope, LED strips, push buttons, and custom PCB. I supported wiring layout and enclosure integration, working through multiple internal configurations to reduce complexity and improve reliability. To enhance the tactile realism of the controllers, I participated in testing different “fluid” materials—including rice, water, ball bearings, and wrapped ball bearings—to emulate the feeling of pouring paint while maintaining durability and consistency during gameplay.</p>
+<hr/>
+<h2 id="section-6">Renderings</h2>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Rendering 1" loading="lazy" src="../../assets/images/shade-splash/rendering-1.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 10: Rendering 1
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Rendering 2" loading="lazy" src="../../assets/images/shade-splash/rendering-2.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 11: Rendering 2
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Rendering 3" loading="lazy" src="../../assets/images/shade-splash/rendering-3.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 12: Rendering 3
+  </figcaption>
+</figure>
+<h2 id="section-7">More Pictures</h2>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Button Close-Up" loading="lazy" src="../../assets/images/shade-splash/button.JPEG" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 13: Button Close-Up
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Front View" loading="lazy" src="../../assets/images/shade-splash/front-view.JPEG" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 14: Front View
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Controllers in Hand" loading="lazy" src="../../assets/images/shade-splash/holding-controllers.jpeg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 15: Controllers in Hand
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Controllers in Hand with Screen" loading="lazy" src="../../assets/images/shade-splash/holding-with-screen.jpg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 16: Controllers in Hand with Screen
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Pouring Look" loading="lazy" src="../../assets/images/shade-splash/pouring-look.jpeg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 17: Pouring Look
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Spout" loading="lazy" src="../../assets/images/shade-splash/spout.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 18: Spout
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Final View" loading="lazy" src="../../assets/images/shade-splash/top-slant-view.JPEG" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 19: Final View
+  </figcaption>
+</figure>
+<h2 id="detail-1">Motion processing and interaction</h2><p>The motion-control implementation used an exponential moving average with a smoothing coefficient of 0.25 and hysteresis thresholds of 12° to enter movement and 8° to return to neutral. This approach reduced unintended switching near the neutral position while preserving responsive physical interaction.</p></article></div><div class="page-end"><a class="btn" href="../index.html">← All projects</a></div></main><footer>Jamison L. Taylor Jr. / Mechanical Engineering Portfolio</footer></body></html>

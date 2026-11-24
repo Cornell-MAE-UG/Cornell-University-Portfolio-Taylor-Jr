@@ -27,9 +27,9 @@ permalink: /:categories/:title/
 
 collections:
   pages:
-    output: true
+    output: false
   projects:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 # Markdown

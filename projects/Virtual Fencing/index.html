@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Virtual Fencing — Jamison L. Taylor Jr.</title><link href="../../assets/css/portfolio.css" rel="stylesheet"/></head><body><a class="skip" href="#main">Skip to content</a><nav><a class="brand" href="../../index.html">JLT<span>.</span></a><div class="links"><a href="../../index.html">Home</a><a aria-current="page" href="../../projects/index.html">Projects</a><a href="../../index.html#cad">Mini CAD</a><a href="../../index.html#experience">Experience</a><a href="../../cv/index.html">CV</a></div></nav><main id="main"><header class="page-hero"><a class="back" href="../index.html">← All projects</a><div class="eyebrow">01 / Product development</div><h1>Virtual Fencing<span class="accent">.</span></h1><p class="lead">GPS-based virtual boundary system + iterative ear-tag CAD + electric stimuli prototyping</p><div class="tags"><span>Fusion360</span><span>BantamTools</span><span>ANSYS</span></div></header><figure class="cover"><img alt="Virtual Fencing project image" src="../../assets/images/virtual-fencing/design-process.JPEG"/></figure><div class="case-layout"><aside aria-label="On this page" class="toc"><div class="eyebrow">On this page</div><a href="#section-1">Overview</a><a href="#section-2">Problem + Motivation</a><a href="#section-3">Project Goal</a><a href="#section-4">Customer Discovery (what we learned from farmers / stakeholders)</a><a href="#section-5">My Contribution (Jamison — CAD + Iteration)</a><a href="#section-6">Design Iterations</a><a href="#section-7">Electrical Stimuli Prototyping (team workstream summary)</a><a href="#section-8">Extra Photos</a><a href="#detail-1">Research and entrepreneurship outcome</a></aside><article class="prose"><h2 id="section-1">Overview</h2>
+<p>Virtual fencing is a livestock management approach that uses GPS tracking and stimuli (sound + electric shock) to keep animals within a farmer-defined virtual boundary. Instead of physically moving fences, farmers can set GPS coordinates and track animals in real time, with collars (or tags) by triggering a stimuli as animals approach the boundary.</p>
+<hr/>
+<h2 id="section-2">Problem + Motivation</h2>
+<p>Traditional fencing requires significant time and labor to manage, and for large-scale farms the maintenance costs can be substantial. Although virtual fencing systems exist, they are often prohibitively expensive and depend on bulky, heavy collars that introduce snagging and usability concerns.</p>
+<hr/>
+<h2 id="section-3">Project Goal</h2>
+<p>Our team was tasked with designing an affordable, low-cost cow ear tag alternative that reduces size compared to traditional collars and makes virtual fencing more accessible, particularly in low- and middle-income countries. The goal was to monitor cow movement and behavior using sensor data (GPS and accelerometer) and apply electric and visual/sound-based stimuli to deter boundary crossing.</p>
+<hr/>
+<h2 id="section-4">Customer Discovery (what we learned from farmers / stakeholders)</h2>
+<p>Key concerns raised during customer discovery included cost, communication and reliability (such as Wi-Fi connectivity issues), and overall trust in the system. Farmers also emphasized the need for fencing flexibility across seasons, with larger grazing areas in the summer and smaller ones in the winter. While traditional and electric fencing are widely used, they present ongoing challenges related to maintaining electrical charge, long-term durability, and physical upkeep, including wires being damaged by branches or terrain.</p>
+<p>When asked what would motivate them to invest in a new system, farmers consistently cited being driven by necessity and the importance of a solution that is both cost-effective and highly reliable.</p>
+<hr/>
+<h2 id="section-5">My Contribution (Jamison — CAD + Iteration)</h2>
+<p>I designed and iterated on electronic enclosures in Fusion 360, with a focus on safety, animal comfort, and cost-effective deployment for farmers in low- and middle-income regions. To validate and refine the design, I conducted 24 finite element analysis (FEA) simulations in ANSYS and Fusion 360, evaluating factor of safety, material strength, and material efficiency by modeling realistic loading conditions ranging from a cow chewing on the enclosure at 200 N to full biting forces of 800 N. In parallel, I performed on-farm testing using different enclosure materials—Nylon 66, Nylon 6, and PLA—to identify an ideal prototyping material that balanced durability, manufacturability, and performance.</p>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Finite Element Analysis of Enclosure 1b" loading="lazy" src="../../assets/images/virtual-fencing/small-fea.png" style="display:block; width:100%; margin:0 auto;">
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 1: Finite Element Analysis of Enclosure 1b
+  </figcaption>
+</img></figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Finite Element Analysis of Enclosure 1a" loading="lazy" src="../../assets/images/virtual-fencing/big-fea.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 2: Finite Element Analysis of Enclosure 1a
+  </figcaption>
+</figure>
+<hr/>
+<h2 id="section-6">Design Iterations</h2>
+<ul>
+<li>Iteration 1a-1b: Improved fit for components and manufacturability, but still had tradeoffs (bulk + cable management).</li>
+</ul>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Enclosure 1a" loading="lazy" src="../../assets/images/virtual-fencing/case-1a.jpeg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 3: Enclosure 1a
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Enclosure 1b" loading="lazy" src="../../assets/images/virtual-fencing/case-1b.jpeg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 4: Enclosure 1b
+  </figcaption>
+</figure>
+<ul>
+<li>Iteration 2 (best current direction): Designed for lights + most components, manufacturable, slightly larger, with no major listed drawbacks.</li>
+</ul>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Enclosure 2" loading="lazy" src="../../assets/images/virtual-fencing/case-2a.jpeg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 5: Enclosure 2
+  </figcaption>
+</figure>
+<ul>
+<li>Future Iteration 1: Designed to give a larger aurface area incontact with the ear of the cow.</li>
+</ul>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Future Enclosure 1" loading="lazy" src="../../assets/images/virtual-fencing/future-case-3.jpeg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 6: Future Enclosure 1
+  </figcaption>
+</figure>
+<ul>
+<li>Future Iteration 2: Designed to allow more space for electronics and to redistribute weight on ear.</li>
+</ul>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Future Enclosure 2" loading="lazy" src="../../assets/images/virtual-fencing/future-case-4.jpeg" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 7: Future Enclosure 2
+  </figcaption>
+</figure>
+<hr/>
+<h2 id="section-7">Electrical Stimuli Prototyping (team workstream summary)</h2>
+<p>To support the deterrence function, we prototyped and simulated high-voltage electric stimuli circuits (transformer-based and boost-converter-based approaches) and validated behavior in lab testing. For example, a boost converter test achieved ~197.4 Vdc output at ~2.34 mA under the stated drive conditions.</p>
+<hr/>
+<h2 id="section-8">Extra Photos</h2>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="enclosure 1b to Hand" loading="lazy" src="../../assets/images/virtual-fencing/case-1b-to-hand.JPEG" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 8: Encosure 1b to Hand
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Enclosure 2a" loading="lazy" src="../../assets/images/virtual-fencing/lights-case.JPEG" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 9: More Enclosure 2
+  </figcaption>
+</figure>
+<figure style="width:400px; margin:0 auto; text-align:center;">
+<img alt="Its a cow!" loading="lazy" src="../../assets/images/virtual-fencing/cow.png" style="display:block; width:100%; margin:0 auto;"/>
+<figcaption style="font-size:0.85rem; color:#555; margin-top:0.4rem;">
+    Figure 10: Its a cow!
+  </figcaption>
+</figure>
+<h2 id="detail-1">Research and entrepreneurship outcome</h2><p>This project was developed through REV Ithaca Startup Works, combining stakeholder interviews, iterative enclosure design and field testing. I also contributed enclosure design and mechanical testing work to the associated Frontiers in Animal Science publication (2025, article 1643958).</p><p><a href="https://doi.org/10.3389/fanim.2025.1643958">Associated research publication ↗</a></p></article></div><div class="page-end"><a class="btn" href="../index.html">← All projects</a></div></main><footer>Jamison L. Taylor Jr. / Mechanical Engineering Portfolio</footer></body></html>
